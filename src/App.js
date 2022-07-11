@@ -1,4 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 // styles
 // import './App.css';
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
+        <Navbar />
         <Switch>
           <Route path='/' exact>
             <Home />
