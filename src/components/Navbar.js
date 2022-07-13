@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <ul>
         <li className={styles.title}>
-          <Link to='/'>myMoney</Link>
+          <Link to='/'>myMoneyApp</Link>
         </li>
 
         {!user && (
